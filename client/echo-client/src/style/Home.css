@@ -1,0 +1,50 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.home h1,
+.home h3 {
+  color: white;
+  text-align: center;
+  position: relative; /* Allows movement */
+  opacity: 0; /* Start invisible */
+}
+
+.home h1 {
+  font-size: 15vw;
+  margin-bottom: -1vw;
+  animation: slideDown 2s ease-out forwards;
+  animation-iteration-count: infinite;
+}
+
+.home h3 {
+  font-size: 6vw;
+  margin-top: -1vw;
+  animation: slideUp 5s ease-out forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

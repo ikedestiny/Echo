@@ -198,5 +198,3 @@ These can be added after launching the MVP:
 - Figma for Design: [https://www.figma.com](https://www.figma.com)
 
 ---
-
-Let me know if you need help with any specific part of the plan! You’ve got this! 🚀
